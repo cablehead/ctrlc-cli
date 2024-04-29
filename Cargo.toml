@@ -1,0 +1,11 @@
+[package]
+name = "ctrlc-cli"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "ctrlc"
+path = "src/main.rs"
+
+[dependencies]
+ctrlc = "3.4.4"
