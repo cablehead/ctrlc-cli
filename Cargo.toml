@@ -8,4 +8,4 @@ name = "ctrlc"
 path = "src/main.rs"
 
 [dependencies]
-ctrlc = "3.4.4"
+signal-hook = "0.3.17"
